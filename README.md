@@ -2,19 +2,19 @@
 
 ## 📖 Overview
 
-Our algorithm finds correspondences between stars in two images of the same sky region even if they’re shifted or rotated—by:
+Our algorithm finds congruents between stars in two images of the same sky region even if they’re shifted or rotated by:
 
 1. Enumerating every triple of stars in each image and computing the three internal angles of each triangle.
-2. Matching triangles whose angles differ by at most a user-defined threshold.
+2. Matching triangles whose angles differ by at most a user defined threshold.
 3. Voting on individual stars based on how often they appear in matched triangles.
 
-Why triangles? Any three non-collinear points define a triangle whose internal angles remain the same under rotation or translation of the entire image.
+Why triangles- Any three non-collinear points define a triangle whose internal angles remain the same under rotation or translation of the entire image.
 
 Thresholding: For each triangle in image 1, compare against every triangle in image 2.
 
-All three corresponding angles must differ by ≤ angle_thresh.
+All three angles of the congruent triangles must differ by ≤ angle_thresh.
 
-Result: A list of matched triangle pairs matched_tris.
+**Result**: A list of matched triangle pairs matched_tris.
 
 Voting on Stars:
 
