@@ -1,4 +1,4 @@
-# StarTracker
+# Star Tracker
 
 ## 📖 Overview
 
@@ -60,3 +60,7 @@ python match_stars.py
 
 The script writes matched_stars.csv and displays both images with matched star pairs highlighted.
 
+[Code](https://github.com/LizaChepurko/StarTracker/blob/main/find_match.ipynb)
+
+## Results
+You can see the identified stars and images in [results](https://github.com/LizaChepurko/StarTracker/tree/main/results)
