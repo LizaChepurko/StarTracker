@@ -39,10 +39,15 @@ Or for HEIC files run:
 ```bash
 detect_stars_heic
 ```
+The output is a csv file with x,y,r (radius),b (brightness) parameters
+
 Then annotate the images via:
 ```bash
 visualize_and_save_stars
 ```
+
+The output is annotated images.
+
 
 Edit the paths and parameters in match_stars.py:
 ```bash
@@ -54,9 +59,7 @@ angle_thresh   = 0.5    # maximum allowed angle difference (degrees)
 output_match_csv = "matched_stars.csv"
 ```
 Run:
-```bash
-python match_stars.py
-```
+The last code block
 
 The script writes matched_stars.csv and displays both images with matched star pairs highlighted.
 
