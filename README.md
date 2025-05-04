@@ -64,3 +64,7 @@ The script writes matched_stars.csv and displays both images with matched star p
 
 ## Results
 You can see the identified stars and images in [results](https://github.com/LizaChepurko/StarTracker/tree/main/results)
+
+![matched_stars_fr1_fr2](https://github.com/user-attachments/assets/35b70ac2-5ae3-4d37-bbf4-5c9adbb27f52)
+
+
