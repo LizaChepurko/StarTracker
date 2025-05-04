@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-Finds correspondences between stars in two images of the same sky region even if they’re shifted or rotated—by:
+Our algorithm finds correspondences between stars in two images of the same sky region even if they’re shifted or rotated—by:
 
 1. Enumerating every triple of stars in each image and computing the three internal angles of each triangle.
 2. Matching triangles whose angles differ by at most a user-defined threshold.
@@ -12,7 +12,7 @@ Why triangles? Any three non-collinear points define a triangle whose internal a
 
 Thresholding: For each triangle in image 1, compare against every triangle in image 2.
 
-Criterion: All three corresponding angles must differ by ≤ angle_thresh.
+All three corresponding angles must differ by ≤ angle_thresh.
 
 Result: A list of matched triangle pairs matched_tris.
 
